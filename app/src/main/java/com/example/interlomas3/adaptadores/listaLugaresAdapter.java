@@ -16,7 +16,6 @@ import com.example.interlomas3.entidades.contactos;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class listaLugaresAdapter extends RecyclerView.Adapter<listaLugaresAdapter.LugaresViewHolder> {
@@ -54,7 +53,7 @@ public class listaLugaresAdapter extends RecyclerView.Adapter<listaLugaresAdapte
             listaLugares.addAll(listaOriginal);
 
         }else{
-            List<contactos> collection = listaLugares.stream()
+            List<contactos> collection = listaOriginal.stream()
                     .filter(i -> i.getZona().toLowerCase().contains(txtBuscar.toLowerCase()))
                     .collect(Collectors.toList());
 

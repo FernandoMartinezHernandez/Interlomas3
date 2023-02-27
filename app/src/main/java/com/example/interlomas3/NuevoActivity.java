@@ -1,19 +1,16 @@
 package com.example.interlomas3;
 
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.SearchView;
+
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.annotation.SuppressLint;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.SearchView;
-import android.widget.Toast;
-
 import com.example.interlomas3.adaptadores.listaLugaresAdapter;
-import com.example.interlomas3.db.DbHelper;
 import com.example.interlomas3.db.DbLugares;
 import com.example.interlomas3.entidades.contactos;
 
@@ -42,12 +39,15 @@ public class NuevoActivity extends AppCompatActivity implements SearchView.OnQue
 
         DbLugares dbLugares = new DbLugares(NuevoActivity.this);
         listaArrayLugares = new ArrayList<>();
+        LinearLayoutManager llm = new LinearLayoutManager(this);
 
         adapter = new listaLugaresAdapter(dbLugares.mostrarLug());
         listaLug.setAdapter(adapter);
 
         txtBuscar.setOnQueryTextListener(this);
 
+        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, llm.getOrientation());
+        listaLug.addItemDecoration(dividerItemDecoration);
 
 
        /* btnInsert.setOnClickListener(new View.OnClickListener() {

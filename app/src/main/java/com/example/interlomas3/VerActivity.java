@@ -1,11 +1,10 @@
 package com.example.interlomas3;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.Activity;
 import android.os.Bundle;
 import android.text.InputType;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.interlomas3.db.DbLugares;
 import com.example.interlomas3.entidades.contactos;

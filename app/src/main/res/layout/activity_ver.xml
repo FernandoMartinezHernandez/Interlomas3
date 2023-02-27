@@ -1,55 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".VerActivity">
+    tools:context=".VerActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/viewNombre"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/hint_nombre" />
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/hint_nombre"
+        app:layout_constraintBottom_toTopOf="@+id/txtLugar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtLugar"
-        android:layout_width="match_parent"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:labelFor="@+id/viewNombre"
         android:inputType="textPersonName"
-        android:textSize="24sp"/>
-
-    <TextView
-        android:id="@+id/viewZona"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hint_zona" />
-
-    <EditText
-        android:id="@+id/txtZona"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
         android:labelFor="@+id/viewNombre"
-        android:inputType="textPersonName"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="30dp" />
+
     <TextView
         android:id="@+id/viewPrecio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hint_precio" />
+        android:layout_width="184dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/hint_precio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtLugar" />
 
     <EditText
         android:id="@+id/txtPrecio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="2dp"
         android:ems="10"
-        android:labelFor="@+id/viewNombre"
         android:inputType="textPersonName"
-        android:textSize="24sp"/>
+        android:labelFor="@+id/viewNombre"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/viewPrecio"
+        app:layout_constraintTop_toBottomOf="@+id/viewPrecio" />
+
+    <EditText
+        android:id="@+id/txtZona"
+        android:layout_width="202dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/viewNombre"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/viewZona"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewZona" />
+
+    <TextView
+        android:id="@+id/viewZona"
+        android:layout_width="184dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/hint_zona"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtLugar" />
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
