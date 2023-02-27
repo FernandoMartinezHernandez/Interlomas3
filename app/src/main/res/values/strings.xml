@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Interlomas3</string>
+    <string name="hint_nombre">Lugar: </string>
+    <string name="hint_precio">Precio: </string>
+    <string name="hint_zona">Zona: </string>
+
+    <string name="hint_viewLugar"> </string>
+
+
+    <string name="menu_nuevo">Nuevo Menu: </string>
+
+</resources>
