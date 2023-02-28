@@ -2,8 +2,12 @@ package com.example.interlomas3;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.SearchView;
+import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -23,6 +27,9 @@ public class NuevoActivity extends AppCompatActivity implements SearchView.OnQue
     RecyclerView listaLug;
     ArrayList<contactos> listaArrayLugares;
     listaLugaresAdapter adapter;
+
+    Spinner spinZon;
+
     //Button btnInsert;
 
 
@@ -48,6 +55,25 @@ public class NuevoActivity extends AppCompatActivity implements SearchView.OnQue
 
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, llm.getOrientation());
         listaLug.addItemDecoration(dividerItemDecoration);
+
+
+        spinZon = (Spinner) findViewById(R.id.spinZonas);
+        ArrayAdapter spinAdapter = ArrayAdapter.createFromResource(this, R.array.Zonas, R.layout.my_selected_item);
+        spinAdapter.setDropDownViewResource(R.layout.my_dropdown_item);
+        spinZon.setAdapter(spinAdapter);
+
+        spinZon.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                adapter.filtrado(adapterView.getSelectedItem().toString());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                adapter.filtrado("");
+
+            }
+        });
 
 
        /* btnInsert.setOnClickListener(new View.OnClickListener() {
@@ -81,7 +107,7 @@ public class NuevoActivity extends AppCompatActivity implements SearchView.OnQue
 
     @Override
     public boolean onQueryTextChange(String s) {
-        adapter.filtrado(s);
+        adapter.filtradoEsp(s);
 
         return false;
     }

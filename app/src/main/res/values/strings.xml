@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Interlomas3</string>
+    <string name="app_name">Sitio Interlomas</string>
     <string name="hint_nombre">Lugar: </string>
     <string name="hint_precio">Precio: </string>
     <string name="hint_zona">Zona: </string>
@@ -7,6 +7,64 @@
     <string name="hint_viewLugar"> </string>
 
 
+
+
+
     <string name="menu_nuevo">Nuevo Menu: </string>
+
+    <string-array name="Zonas">
+
+        <item>Servicio Local</item>
+        <item>Huixquilucan</item>
+        <item>Naucalpan</item>
+        <item>Acolman</item>
+        <item>Atizapan</item>
+        <item>Coacalco de Berriozabal</item>
+        <item>Chicolopan</item>
+        <item>Cuautitlan Izcalli</item>
+        <item>Cuautitlan de Romero Rubio</item>
+        <item>Ecatepec de Morelos</item>
+        <item>Ixtapaluca</item>
+        <item>Jardines de Morelos</item>
+        <item>De la Paz</item>
+        <item>Nezahualcoyotl</item>
+        <item>Nicolas Romero</item>
+        <item>Tecamac</item>
+        <item>Texcoco</item>
+        <item>Tepoztlan</item>
+        <item>Tlanepantla</item>
+        <item>Tultepec</item>
+        <item>Tultitlan</item>
+        <item>Valle de Chalco</item>
+        <item>Alvaro Obregon</item>
+        <item>Azcapotzalco</item><item>Cuajimalpa</item>
+        <item>Benito Juarez</item>
+        <item>Coyoacan</item>
+        <item>Cuauhtemoc</item>
+        <item>Gustavo A Madero</item>
+        <item>Iztacalco</item>
+        <item>Iztapalapa</item>
+        <item>Magdalena Contreras</item>
+        <item>Miguel Hidalgo</item>
+        <item>Milpa Alta</item>
+        <item>Tlahuac</item>
+        <item>Tlalpan</item>
+        <item>Venustiano Carranza</item>
+        <item>Xochimilco</item>
+        <item>Estaciones del metro</item>
+        <item>Centrales camioneras</item>
+        <item>Aeropuertos</item>
+        <item>Servicios Foraneos</item>
+        <item>Hospitales</item>
+        <item>Museos</item>
+        <item>Hoteles</item>
+        <item>Embajadas</item>
+
+
+
+
+
+
+    </string-array>
 
 </resources>

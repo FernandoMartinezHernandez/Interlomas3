@@ -51,7 +51,6 @@ public class listaLugaresAdapter extends RecyclerView.Adapter<listaLugaresAdapte
         if(longitud ==0){
             listaLugares.clear();
             listaLugares.addAll(listaOriginal);
-
         }else{
             List<contactos> collection = listaOriginal.stream()
                     .filter(i -> i.getZona().toLowerCase().contains(txtBuscar.toLowerCase()))
@@ -60,9 +59,23 @@ public class listaLugaresAdapter extends RecyclerView.Adapter<listaLugaresAdapte
             listaLugares.clear();
             listaLugares.addAll(collection);
         }
-
         notifyDataSetChanged();
+    }
 
+    public void filtradoEsp(String txtBuscar){
+        int longitud = txtBuscar.length();
+        if(longitud ==0){
+            listaLugares.clear();
+            listaLugares.addAll(listaOriginal);
+        }else{
+            List<contactos> collection = listaOriginal.stream()
+                    .filter(i -> i.getLugar().toLowerCase().contains(txtBuscar.toLowerCase()))
+                    .collect(Collectors.toList());
+
+            listaLugares.clear();
+            listaLugares.addAll(collection);
+        }
+        notifyDataSetChanged();
     }
 
     @Override
