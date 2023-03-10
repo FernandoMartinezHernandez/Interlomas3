@@ -13,8 +13,11 @@ public class VerActivity extends AppCompatActivity {
 
     EditText txtLugar, txtZona, txtPrecio;
     contactos contacto;
+    contactos zonaa;
 
     int id=0;
+
+    String zonaid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,13 +35,16 @@ public class VerActivity extends AppCompatActivity {
 
             }else{
                 id = extras.getInt("ID");
+                zonaid = extras.getString("ZONA");
             }
         }else{
             id = (int) savedInstanceState.getSerializable("ID");
+            zonaid = (String) savedInstanceState.getSerializable("ZONA");
         }
 
         DbLugares dbLugares = new DbLugares(VerActivity.this);
         contacto = dbLugares.verContactos(id);
+
 
         if(contacto != null){
             txtLugar.setText(contacto.getLugar());

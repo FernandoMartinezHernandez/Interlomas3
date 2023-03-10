@@ -6,6 +6,15 @@ public class contactos {
     private String zona;
     private String precio;
 
+
+
+    private int foto;
+
+
+    public int getFoto() {return foto;}
+
+    public void setFoto(int foto) {this.foto = foto;}
+
     public int getId() {
         return id;
     }

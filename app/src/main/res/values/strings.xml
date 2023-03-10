@@ -6,7 +6,56 @@
 
     <string name="hint_viewLugar"> </string>
 
+    <string name="portada">1.- LOS GASTOS DE PEAJE Y/O TAG SERÁN A CARGO DEL USUARIO, EN TODOS LOS SERVICIOS DE APARTADO O LLAMADA EL TIEMPO DE ESPERA EN EL DOMICILIO SERÁ DE 5 A 10 MINUTOS.</string>
 
+
+    <string name="pt2">EL SERVICIO POR TIEMPO QUEDARÁ DE LA SIGUIENTE MANERA:
+        </string>
+
+    <string name="pt3">2.- LA HORA TENDRÁ UN COSTO DE $150.00 Y SERÁ POR UN MÍNIMO DE DOS HORAS; EL SERVICIO SUPERIOR A LA TARIFA POR HORA NO ENTRA EN EL SERVICIO POR TIEMPO.
+        </string>
+
+    <string name="pt4">3.- TIENE UN COSTO DE $12.00 EL KILOMETRO, SERVICIO FORÁNEO.
+       </string>
+
+    <string name="pt5">4.- SERVICIO DE MENSAJERÍA TIENE UN COSTO DE $40 PESOS EXTRA.
+        </string>
+
+    <string name="pt6">5. LOS SERVICIOS DE COMPRAS SE COBRARÁ COMO SERVICIO MÁS MENSAJERÍA.
+       </string>
+
+    <string name="pt7">6.- EL SERVICIO PARA GUIAR DENTRO DEL ÁREA DE TRABAJO ES DE EL COSTO DEL SERVICIO.
+       </string>
+
+    <string name="pt8">7.- EL SERVICIO DE CAMBIAR UNA LLANTA, SERÁ DE $100.00 MÁS EL COSTO DEL SERVICIO.
+        </string>
+
+    <string name="pt9">8.- EL SERVICIO DE PASAR CORRIENTE QUEDA DE LA SIGUIENTE MANERA $100.00.
+        </string>
+
+    <string name="pt10">9.-TODOS LOS SERVICIOS DE IDA Y VUELTA SE COBRARÁ DE LA SIGUIENTE FORMA: IDAAL 100% Y VUELTA AL 50%.
+        </string>
+
+    <string name="pt11">10.- AVANZA $100.00 EL USO DE LA CAMIONETA PARA UN FIN DISTINTO AL EQUIPAJE (EL COSTO Y LA REALIZACIÓN DEL SERVICIO SERÁ A CRITERIO DEL OPERADOR).
+        AUTO AMPLIO Y/O CON AIRE ACONDICIONADO $50.00 (TIIDA, VERSA, SENTRA Y JETTA).
+        </string>
+
+    <string name="pt12">11.- EN TODOS LOS CASOS EN QUE SE OCUPE ESTACIONAMIENTO, LOS GASTOS CORRERÁN A CARGO DEL USUARIO.
+        </string>
+
+    <string name="pt13">12.-NINGUNA TARIFA INCLUYE CASETAS.
+        </string>
+
+    <string name="pt14">13.-EL COSTO ES EL MISMO LAS 24 HORAS.
+     </string>
+
+    <string name="pt15">14.-CUPO MÁXIMO 4 PERSONAS.
+    </string>
+
+    <string name="pt16">15.-DESVIACIÓN DE $10.00 A $20.00.
+        </string>
+
+    <string name="pt17">16.-SE COBRARÁ $5.00 PARADA ADICIONAL SOBRE LA VÍA.</string>
 
 
 
@@ -59,12 +108,6 @@
         <item>Museos</item>
         <item>Hoteles</item>
         <item>Embajadas</item>
-
-
-
-
-
-
     </string-array>
 
 </resources>

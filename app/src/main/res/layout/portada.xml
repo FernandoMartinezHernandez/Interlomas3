@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1026dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="0dp"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/portadatext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/portada"
+
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry,VisualLintLongText"
+                tools:layout_conversion_absoluteHeight="66dp"
+                tools:layout_conversion_absoluteWidth="458dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="-42dp" />
+
+            <TextView
+                android:id="@+id/portadatext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt2"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="36dp" />
+
+            <TextView
+                android:id="@+id/portadatext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt3"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="69dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <TextView
+                android:id="@+id/portadatext4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt4"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="165dp" />
+
+            <TextView
+                android:id="@+id/portadatext5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt5"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="213dp" />
+
+            <TextView
+                android:id="@+id/portadatext6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt6"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="52dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="261dp" />
+
+            <TextView
+                android:id="@+id/portadatext7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt7"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="52dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+            <TextView
+                android:id="@+id/portadatext8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt8"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+
+                tools:layout_conversion_absoluteHeight="52dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="389dp" />
+
+            <TextView
+                android:id="@+id/portadatext9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt9"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+
+                tools:layout_conversion_absoluteHeight="52dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="454dp" />
+
+            <TextView
+                android:id="@+id/portadatext10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt10"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+
+                tools:layout_conversion_absoluteHeight="52dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="518dp" />
+
+            <TextView
+                android:id="@+id/portadatext11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+
+                android:text="@string/pt11"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="101dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="583dp" />
+
+            <TextView
+                android:id="@+id/portadatext12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt12"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+
+                tools:layout_conversion_absoluteHeight="52dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="696dp" />
+
+            <TextView
+                android:id="@+id/portadatext13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt13"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="761dp" />
+
+            <TextView
+                android:id="@+id/portadatext14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt14"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="809dp" />
+
+            <TextView
+                android:id="@+id/portadatext15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt15"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="857dp" />
+
+            <TextView
+                android:id="@+id/portadatext16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt16"
+                android:textColor="@color/black"
+
+                tools:ignore="RtlSymmetry"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="905dp" />
+
+            <TextView
+                android:id="@+id/portadatext17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/pt17"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry"
+
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="456dp"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="953dp" />
+
+            <Button
+                android:id="@+id/botonport"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/interlomasCl"
+                android:text="Continuar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
